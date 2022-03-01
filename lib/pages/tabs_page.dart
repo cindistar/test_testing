@@ -21,14 +21,14 @@ class TabsPage extends StatelessWidget {
       bottomNavigationBar: TabBar(
         tabs: [
           const Tab(
-            icon:  Icon(Icons.home),
+            icon: Icon(Icons.home),
             text: "Produtos",
           ),
           Tab(
             icon: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                 const Icon(Icons.shopping_cart),
+                const Icon(Icons.shopping_cart),
                 Text(
                   bloc.cart.length.toString(),
                   style: const TextStyle(
@@ -41,7 +41,7 @@ class TabsPage extends StatelessWidget {
             text: "Carrinho",
           ),
         ],
-        labelColor: Theme.of(context).primaryColor,
+        labelColor: Colors.green,
         unselectedLabelColor: Colors.black38,
         indicatorSize: TabBarIndicatorSize.label,
         indicatorPadding: const EdgeInsets.all(5.0),
