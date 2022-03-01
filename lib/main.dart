@@ -29,10 +29,10 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Shopping Cart',
+        title: 'Hello from the other side',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: Colors.yellow,
         ),
         home: const DefaultTabController(
           length: 2,
