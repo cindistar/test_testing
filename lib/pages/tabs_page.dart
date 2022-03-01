@@ -38,7 +38,7 @@ class TabsPage extends StatelessWidget {
                 ),
               ],
             ),
-            text: "Carrinho",
+            text: "Gato",
           ),
         ],
         labelColor: Colors.green,
